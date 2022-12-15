@@ -1,0 +1,89 @@
+@font-face{
+    font-family:"bitfont";
+    src:local("美咲ゴシック");
+}
+@font-face {
+    font-family: 'bitfont2';
+    src: url('misaki_ttf_2021-05-05/misaki_gothic.ttf');
+}
+/* カーソルを入れて点滅させる場合は追加 */
+/* .ityped-cursor {
+    color:white;
+    opacity: 1;
+    animation-direction: alternate;
+    animation: blink 1.0s infinite;
+}
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+} */
+body{
+    background-color: black;
+    font-family: "bitfont";
+    padding: 10px;
+}
+
+.head h1{
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 180px;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+#ityped{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.space{
+    height: 500px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    gap: 1%;
+    justify-content: center;
+}
+.row .four.columns{
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+}
+.space2{
+    height: 100px;
+}
+.container h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.work_row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+}
+.work_row .column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+}
