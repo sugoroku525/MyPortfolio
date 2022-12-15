@@ -72,6 +72,9 @@ body {
 .small_space {
     height: 50px;
 }
+.medium_space {
+    height: 125px;
+}
 .row .four.columns {
     color: white;
     border: solid;
