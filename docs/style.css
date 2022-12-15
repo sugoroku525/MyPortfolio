@@ -51,7 +51,7 @@ body {
     font-size: 40px;
 }
 
-.space {
+.big_space {
     height: 500px;
 }
 
@@ -61,7 +61,17 @@ body {
     gap: 1%;
     justify-content: center;
 }
-
+.row .one.column {
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+}
+.small_space {
+    height: 50px;
+}
 .row .four.columns {
     color: white;
     border: solid;
