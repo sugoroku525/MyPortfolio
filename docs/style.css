@@ -22,16 +22,58 @@
         opacity: 0;
     }
 }
+html {
+    height: 100%; /* required */
+}
+
+a:hover {
+    color: white;
+    font-size: 1.1em;/*文字サイズ2倍*/
+    font-weight: bold;
+}
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
 
 body {
     background-color: black;
     font-family: "bitfont";
     padding: 10px;
+    color: white;
+    display: flex; /* required */
+    flex-direction: column; /* required */
+}
+header {
+    position: sticky;
+    top: 0;
+    height: 4%;
+    background-color: black;
+}
+.top{
+    display: flex;
+    gap: 2.5%;
+    justify-content: end;
+    padding-right: 3%;
+}
+main{
+    flex-grow:1; 
 }
 
-.head h1 {
+
+.info h1 {
     color: white;
     text-align: center;
+    font-size: 50px;
+    padding-top: 180px;
+}
+.head h1 {
+    color: white;
     width: 100%;
     text-align: center;
     font-size: 50px;
@@ -52,7 +94,7 @@ body {
 }
 
 .big_space {
-    height: 500px;
+    height: 200px;
 }
 
 .row {
